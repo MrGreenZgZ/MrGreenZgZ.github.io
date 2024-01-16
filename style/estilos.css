@@ -1,0 +1,526 @@
+
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+PRE-INDEX*/
+
+.body_preindex{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.section_preindex{
+    border: 2px solid white;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+#article_preindex{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#brel_gif{
+    border-radius: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+INDEX*/
+
+body.index_body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+NAV-INDEX --> Cambiar placeholder y terminado (tambien cambiar fondo a esquema de colores)
+(Añadir al pasar con el cursor un audio por cada raid) */
+
+.index-navegador{
+    background-color: #3e3333;
+    border-radius:1cm;
+    width: 40%;
+    height: 10%;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+.tabla-nav{
+    border: 1px solid black;
+    width: 100%;
+}
+.bloc{
+    width: 50%;
+    height: 50%;
+    transition: 300ms;
+}
+#loa_logo{
+    width: 40%;
+    height: 40%;
+}
+#loa_logo:hover{
+    transform:scale(1.2)
+}
+.bloc:hover{
+    transform: scale(1.75);
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+Video Central*/
+
+.header_index{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.article_aux_izq{
+    float: left;
+    width: 17.5%;
+}
+
+.aside_index{
+    width: 75%;
+    margin: auto;
+    background-color: #3e3333;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.tabla_aside_index{
+    border-collapse:separate;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#index_aside:link{
+    color: white;
+    text-decoration: none;
+}
+
+#index_aside:visited{
+    color: white;
+}
+
+.video{
+    margin-left: 1%;
+    float: center;
+    width: 65%;
+    border-radius: 20px; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.article_aux_dcha{
+    float: right;
+    width: 17.5%;
+}
+
+.aside_dcha_index{
+    width: 70%;
+    background-color:#3e3333;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+Seccion1*/
+
+#seccion1{
+    width: 89%;
+    height: 40%;
+    display: flex;
+    margin-top: 7%;
+    padding:5%;
+    background-color: #3e3333;
+    border-radius: 1cm;
+}
+
+.texto1{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.imagen1{
+    width: 30%;
+    height: 100%;
+    float: right;
+    display:flex;
+}
+
+.aside_aux1{
+    width:15%;
+}
+
+.imagen_imagen1{
+    text-align: center;
+    width: 90%;
+    float: right;
+}
+
+#lista_numerada{
+    text-align: left;
+}
+/*------------------------------------------------------------------------------------------------------ 
+Seccion2*/
+
+#seccion2{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    margin-top: 5%;
+    padding-left:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #3e3333;
+    border-radius: 1cm;
+}
+
+.imagen2{
+    text-align: center;
+    width: 30%;
+    height: 50%;
+}
+
+.texto2{
+    padding-left: 5%;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+
+#lista_no_numerada{
+    text-align: left;
+}
+
+
+/*------------------------------------------------------------------------------------------------------ 
+Sup-partes Secciones*/
+
+footer{
+    width: 98%;
+    height: 20%;
+    margin-top: 2%;
+    background-color: #3e3333;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    color: white;
+}
+
+.contacto{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.gif{
+    float: center;
+    width: 68%;
+    height: 200px;
+}
+
+#pistolera{
+    margin-left:20%;
+    border-radius: 20px;
+    width: 45%;
+    height: 100%;
+}
+
+.tabla_footer{
+    border-spacing: 5px;
+}
+
+.blocB{
+    text-decoration: none;
+    color: white;
+}
+
+#youtube_icon{
+    width: 20%;
+    height: 20%;
+    transition: 300ms;
+}
+
+#youtube_icon:hover{
+    rotate: 8deg;
+}
+
+.loa{
+    float: right;
+    width: 10%;
+    height: 100%; 
+    transition: 300ms;
+}
+
+.loa:hover{
+    rotate: 8deg;
+}
+
+.ToLoa{
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+VALTAN*/
+body.valtan_body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.seccion_imagen_central{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.aside_puertas{
+    background-color: #3e3333;
+    border-radius: 0.5cm;
+    margin-right: 1%;
+    padding-left: 1%;
+    width: 15%;
+    display: right;
+    color: white;
+}
+
+.articulo_imagen_central{
+    width: 65%;
+    display: center;
+    text-align: center;
+}
+
+.imagen_central{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.consumibles{
+    width: 20%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.tabla_consumibles{
+    text-align: center;
+    border-collapse:separate;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.tabla_consumibles td, th{
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    border-radius: 20px;
+}
+
+.tabla_consumibles th{
+    border-top: none;
+}
+
+.img_tabla{
+    height: 50px;
+    width: 50px;
+}
+
+#titulo_valtan{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #3e3333;
+}
+
+#seccion_recomendacion{
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.recomendaciones{
+    border-radius: 20px;
+    background-color: #3e3333;
+    width: 50%;
+    margin: auto;
+}
+
+#enlace_recomendaciones:link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#enlace_recomendaciones:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+VALTAN-RECOMENDACIONES*/
+
+.main_recomend{
+    width: 100%;
+    height: 70%;
+    display: flex;    
+}
+
+.seccion_recomend_1{
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+}
+
+#imagen_res_valtan{
+    width: 100%;
+    height: 95.5%;
+    border-radius: 20px;
+    display: block;
+}
+
+.seccion_recomend_2{
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+    display: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.seccion_recomend_3{
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: right;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#ejemplo1{
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+/*------------------------------------------------------------------------------------------------------ 
+VYKAS*/
+
+
+/*------------------------------------------------------------------------------------------------------ 
+KAKUL*/
+
+
+/*------------------------------------------------------------------------------------------------------ 
+BRELSHAZA*/
+
+
+/*------------------------------------------------------------------------------------------------------ 
+Formulario*/
+
+body.formulario_body{
+    height: 100%;
+    width: 100%;
+}
+
+.section_desc{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: #3e3333;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.section_formulario{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 2%;
+    background-color: #3e3333;
+    border-radius: 20px;
+}
+
+.fieldset_formulario{
+    width: 98%;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    color: white;
+}
+
+.formulario1{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+#botones{
+    text-align: center;
+}
+
+#boton{
+    width: 15%;
+    height: 75%;
+}
+
+
+/*#combate_favorito{
+    color: purple;
+}*/
+
+.footer_formulario{
+    height: 10%;
+}
+
+@media only screen and (max-width: 720px){
+
+    body{
+        font-size: 10px;
+    }    
+
+    .gif{
+        height: 100px;
+    } 
+} 
+
