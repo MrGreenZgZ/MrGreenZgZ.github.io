@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>MMO: Lost Ark</title>
+	<link href="https://mrgreenzgz.github.io/atom.atom" rel="self"/>
+	<id>https://mrgreenzgz.github.io/</id>
+	<updated>2023-12-13T18:30:02Z</updated>
+	
+	<entry>
+		<title>Raid: VALTAN</title>
+		<link href="https://mrgreenzgz.github.io/valtan.html" rel="alternate" type="text/html" />
+		<id>https://mrgreenzgz.github.io/valtan.html</id>
+		<updated>2023-12-13T18:30:02Z</updated>
+		<summary>Resumen</summary>
+		<author>
+			<name>Roberto García</name>
+			<email>johndoe@example.com</email>
+		</author>
+	</entry>
+</feed>
