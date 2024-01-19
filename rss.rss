@@ -3,6 +3,7 @@
 
 <channel>
   <title>Lost Ark MMO</title>
+  <language>es-ES</language>
   <link>https://mrgreenzgz.github.io/</link>
   <description>Introducción y organización en una RAID</description>
   <item>
@@ -10,6 +11,18 @@
     <link>https://mrgreenzgz.github.io/valtan.html</link>
     <guid>https://mrgreenzgz.github.io/valtan.html</guid>
     <description>Guia e intrducción al jefe de horda: VALTAN</description>
+  </item>
+  <item>
+    <title>Vykas</title>
+    <link>https://mrgreenzgz.github.io/vykas.html</link>
+    <guid>https://mrgreenzgz.github.io/vykas.html</guid>
+    <description>Guia e intrducción al jefe de horda: VYKAS</description>
+  </item>
+  <item>
+    <title>Brel</title>
+    <link>https://mrgreenzgz.github.io/brelshaza.html</link>
+    <guid>https://mrgreenzgz.github.io/brelshaza.html</guid>
+    <description>Guia e intrducción al jefe de horda: BRELSHAZA</description>
   </item>
 </channel>
 

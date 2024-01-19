@@ -14,7 +14,29 @@
 		<summary>Resumen</summary>
 		<author>
 			<name>Roberto Garcia</name>
-			<email>johndoe@example.com</email>
+			<email>robertogarciafernandez@hotmail.es</email>
+		</author>
+	</entry>
+	<entry>
+		<title>Raid: VYKAS</title>
+		<link href="https://mrgreenzgz.github.io/vykas.html" rel="alternate" type="text/html" />
+		<id>https://mrgreenzgz.github.io/vykas.html</id>
+		<updated>2023-12-14T18:30:02Z</updated>
+		<summary>Resumen</summary>
+		<author>
+			<name>Roberto Garcia</name>
+			<email>robertogarciafernandez@hotmail.es</email>
+		</author>
+	</entry>
+	<entry>
+		<title>Raid: BRELSHAZA</title>
+		<link href="https://mrgreenzgz.github.io/brelshaza.html" rel="alternate" type="text/html" />
+		<id>https://mrgreenzgz.github.io/brelshaza.html</id>
+		<updated>2023-12-15T18:30:02Z</updated>
+		<summary>Resumen</summary>
+		<author>
+			<name>Roberto Garcia</name>
+			<email>robertogarciafernandez@hotmail.es</email>
 		</author>
 	</entry>
 </feed>
